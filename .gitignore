@@ -3,3 +3,6 @@
 
 # early icon draft kept locally (superseded by icons/)
 /icon128.png
+
+# maintainer-only local notes
+/RELEASING.md
