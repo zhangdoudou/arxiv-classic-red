@@ -32,7 +32,7 @@ Not affiliated with or endorsed by arXiv.
 ## Publish to Microsoft Edge Add-ons
 
 1. Create the upload package (from the parent directory):
-   `cd arxiv-classic-red-extension && zip -r ../arxiv-classic-red-0.4.0.zip manifest.json background.js classic-red.css icons/`
+   `cd arxiv-classic-red-extension && zip -r ../arxiv-classic-red-0.0.1.zip manifest.json background.js classic-red.css icons/`
 2. Register at https://partner.microsoft.com/dashboard/microsoftedge
    (one-time, free for Edge Add-ons).
 3. Create a new extension, upload the zip, and fill in the listing.

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "arXiv Classic Red",
-  "version": "0.4.0",
+  "version": "0.0.1",
   "description": "Restores the classic red arXiv header. Click the toolbar icon to toggle. CSS-only styling, no tracking, no network requests. Not affiliated with arXiv.",
   "icons": {
     "16": "icons/icon16.png",
