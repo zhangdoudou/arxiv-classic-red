@@ -1,0 +1,51 @@
+/* Classic Red for arXiv v0.3
+   CSS-only. No JavaScript, no background worker, no network requests.
+   Targets the real class names of the 2026 arXiv redesign
+   (header.ds-site-header in /static/base/1.0.1/css/arxiv-header-footer.css).
+*/
+
+:root {
+  --classic-red: #b31b1b;      /* historical arXiv "Campus Red" */
+  --classic-red-dark: #8f1717; /* hover/pressed shade */
+}
+
+/* Top header bar: classic red instead of the new dark brown (#1c1a17) */
+header.ds-site-header {
+  background: var(--classic-red) !important;
+}
+
+/* The new logo asset (red X + beige letters) is designed for the dark
+   header; turn it solid white like the old red header's logo. */
+.ds-site-header-logo img {
+  filter: brightness(0) invert(1) !important;
+}
+
+/* Navigation links and buttons: white text on red */
+.ds-site-header-nav a,
+.ds-site-header-nav a:visited,
+.ds-site-header-nav button,
+.ds-site-header-nav-toggle,
+.ds-site-header-login {
+  color: #ffffff !important;
+}
+
+/* Hover: arXiv's own rule paints a dark-brown box (#302c28);
+   use a darker red instead. */
+.ds-site-header-nav a:hover,
+.ds-site-header-nav button:hover,
+.ds-site-header-nav-toggle:hover {
+  background: var(--classic-red-dark) !important;
+  color: #ffffff !important;
+}
+
+/* Narrow windows: the collapsed dropdown menu and its separators
+   should match the red header instead of staying dark brown. */
+.ds-site-header.is-collapsible .ds-site-header-nav {
+  background: var(--classic-red) !important;
+  border-top-color: var(--classic-red-dark) !important;
+}
+
+.ds-site-header.is-collapsible .ds-site-header-nav a,
+.ds-site-header.is-collapsible .ds-site-header-nav button {
+  border-bottom-color: var(--classic-red-dark) !important;
+}
