@@ -49,3 +49,16 @@ header.ds-site-header {
 .ds-site-header.is-collapsible .ds-site-header-nav button {
   border-bottom-color: var(--classic-red-dark) !important;
 }
+
+/* HTML paper pages (arxiv.org/html/...) use a separate header
+   (header.arxiv-html-header) themed entirely through CSS variables;
+   overriding them on the header element covers light and dark mode. */
+header.arxiv-html-header {
+  --header-background-color: var(--classic-red) !important;
+  --header-text-color: #ffffff !important;
+  --header-hover-color: #ffd7d7 !important;
+}
+
+.html-header-logo img {
+  filter: brightness(0) invert(1) !important;
+}
