@@ -1,5 +1,7 @@
-/* Classic Red for arXiv v0.3
-   CSS-only. No JavaScript, no background worker, no network requests.
+/* arXiv Classic Red
+   This stylesheet is the only thing injected into arXiv pages; no
+   JavaScript runs in them (the extension's sole script is the toolbar
+   toggle's service worker). No network requests, no tracking.
    Targets the real class names of the 2026 arXiv redesign
    (header.ds-site-header in /static/base/1.0.1/css/arxiv-header-footer.css).
 */
