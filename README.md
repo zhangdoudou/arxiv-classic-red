@@ -23,11 +23,18 @@ Not affiliated with or endorsed by arXiv.
   when you click the toolbar icon and sleeps otherwise.
 - No tracking, no analytics, no network requests, no data collection.
 
-## Install (developer mode)
+## Install
 
-1. Open `edge://extensions` (or `chrome://extensions`).
-2. Enable **Developer mode**.
-3. Click **Load unpacked** and select this folder.
+For Edge users, the recommended way is to install directly from the
+[Microsoft Edge Add-ons store](https://microsoftedge.microsoft.com/addons/detail/arxiv-classic-red/bgpfbngpinanaaomkoaifcbfdbdmahij) —
+one click, and updates arrive automatically.
+
+For Chrome and other Chromium-based browsers, install manually from source:
+
+1. Clone or download this repository.
+2. Open `chrome://extensions` (or your browser's extensions page).
+3. Enable **Developer mode**.
+4. Click **Load unpacked** and select this folder.
 
 ## Color
 
